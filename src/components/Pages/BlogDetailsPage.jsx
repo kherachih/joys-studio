@@ -10,15 +10,15 @@ import Spacing from '../Spacing'
 
 export default function BlogDetailsPage() {
   const params = useParams()
-  pageTitle('Blog Details');
+  pageTitle('Joys Studio Blog');
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
     <>
     {/* Start Page Heading Section */}
-      <PageHeading 
-        title='Blog Single'
+      <PageHeading
+        title='Joys Studio Blog'
         bgSrc='/images/blog_details_hero_bg.jpeg'
         pageLinkText={params.blogDetailsId}
       />
@@ -37,16 +37,16 @@ export default function BlogDetailsPage() {
               </Div>
               <Div className="cs-post_info">
                 <Div className="cs-post_meta cs-style1 cs-ternary_color cs-semi_bold cs-primary_font">
-                  <span className="cs-posted_by">07 Mar 2022</span>
-                  <Link to="/blog" className="cs-post_avatar">Tech</Link>
+                  <span className="cs-posted_by">07 Mar 2025</span>
+                  <Link to="/blog" className="cs-post_avatar">Mobile Development</Link>
                 </Div>
-                <h2 className="cs-post_title">Creative studio programm coming soon</h2>
-                <p>Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.</p>
+                <h2 className="cs-post_title">Innovative Mobile App Development at Joys Studio</h2>
+                <p>At Joys Studio, we specialize in creating cutting-edge mobile applications that transform ideas into powerful digital experiences. Our team of expert developers and designers work tirelessly to deliver innovative solutions that push the boundaries of what's possible in mobile technology. We combine creativity with technical expertise to build apps that not only look stunning but also provide exceptional user experiences.</p>
                 <blockquote className="cs-primary_font">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, who expound the actual teachings of the great explorer of the truth, the master.
-                  <small>Loren Mulari</small>
+                  Innovation distinguishes between a leader and a follower. At Joys Studio, we don't just follow mobile app trends - we create them. Our commitment to excellence and creativity drives us to deliver solutions that exceed expectations.
+                  <small>CEO, Joys Studio</small>
                 </blockquote>
-                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated.</p>
+                <p>Our mobile app development process is meticulously designed to ensure every project meets the highest standards of quality and innovation. From initial concept to final deployment, we work closely with our clients to understand their vision and transform it into a reality that resonates with users. Our expertise spans across iOS, Android, and cross-platform solutions, ensuring your app reaches the widest possible audience while maintaining optimal performance.</p>
                 <Div className="row">
                   <Div className="col-md-6">
                     <img src="/images/blog_details_img_1.jpeg" alt="Blog Details" className="cs-radius_15 w-100" />
@@ -57,9 +57,9 @@ export default function BlogDetailsPage() {
                     <Div className="cs-height_45 cs-height_lg_45" />
                   </Div>
                 </Div>
-                <h3>Art is powerful and imaginary source</h3>
-                <p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances.</p>
-                <p>So, blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain amount of people.</p>
+                <h3>Mobile Innovation: The Joys Studio Approach</h3>
+                <p>What sets Joys Studio apart is our relentless pursuit of innovation. We don't just build apps; we create experiences that captivate and engage users. Our team stays ahead of the curve by continuously exploring new technologies, design trends, and user behavior patterns. This forward-thinking approach allows us to deliver mobile solutions that not only meet current needs but also anticipate future demands, ensuring your app remains relevant and competitive in the ever-evolving mobile landscape.</p>
+                <p>At Joys Studio, we believe that great mobile apps are born from the perfect blend of creativity and technical excellence. Our development process incorporates the latest industry best practices while maintaining the flexibility to adapt to the unique requirements of each project. Whether you're a startup looking to make your mark or an established business seeking to enhance your mobile presence, Joys Studio has the expertise and passion to bring your vision to life.</p>
               </Div>
             </Div>
             {/* End Details Post Content */}
@@ -114,7 +114,7 @@ export default function BlogDetailsPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
+          title="Let's create <br />something <i>innovative</i> together"
           btnText='Apply For Meeting' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'

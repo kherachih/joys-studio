@@ -26,109 +26,109 @@ const heroSocialLinks = [
 ];
 const funfaceData = [
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Mobile Apps Created',
+    factNumber: '50+',
   },
   {
-    title: 'Global happy clients',
-    factNumber: '40K',
+    title: 'Happy Clients Worldwide',
+    factNumber: '1000+',
   },
   {
-    title: 'Project completed',
-    factNumber: '50k',
+    title: 'Projects Completed',
+    factNumber: '200+',
   },
   {
-    title: 'Team members',
-    factNumber: '250',
+    title: 'Expert Developers',
+    factNumber: '15+',
   },
 ];
 const serviceData1 = [
   {
-    title: 'UI/UX Design',
+    title: 'iOS App Development',
     href: '/service/service-details',
   },
   {
-    title: 'Marketing',
+    title: 'Android App Development',
     href: '/service/service-details',
   },
   {
-    title: 'Branding',
+    title: 'Cross-Platform Solutions',
     href: '/service/service-details',
   },
 ];
 const serviceData2 = [
   {
-    title: 'SEO',
+    title: 'Mobile UI/UX Design',
     href: '/service/service-details',
   },
   {
-    title: 'App design',
+    title: 'App Testing & QA',
     href: '/service/service-details',
   },
   {
-    title: 'React Developer',
+    title: 'Mobile App Maintenance',
     href: '/service/service-details',
   },
 ];
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'VTC Ride Sharing App',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_11.jpeg',
     category: 'ui_ux_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Ecommerce Interface',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_12.jpeg',
     category: 'logo_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'E-learning Platform',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_13.jpeg',
     category: 'web_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Saas Landing Page',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_14.jpeg',
     category: 'mobile_apps',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'VTC Payment Integration',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_15.jpeg',
     category: 'ui_ux_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'VTC Real-time Tracking',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_16.jpeg',
     category: 'web_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'VTC Fleet Management',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_11.jpeg',
     category: 'ui_ux_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'VTC User Dashboard',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_12.jpeg',
     category: 'logo_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'VTC Analytics Platform',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_13.jpeg',
@@ -138,7 +138,7 @@ const portfolioData = [
 
 export default function DigitalAgencyHome() {
   const [itemShow, setItemShow] = useState(6);
-  pageTitle('Digital Agency');
+  pageTitle('Joys Studio');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -147,13 +147,13 @@ export default function DigitalAgencyHome() {
     <>
       {/* Start Hero Section */}
       <Hero4
-        title="We Are <span>A</span>rino <br />Digital Agency"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        title="We Are <span>J</span>oys <br />Studio"
+        subtitle="We craft innovative mobile applications that transform ideas into powerful digital experiences, delivering cutting-edge solutions for today's mobile-first world."
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        phoneNumber="+044 546664"
-        email="info@arino.com"
+        phoneNumber="+213 779 646 069"
+        email="info@joys-studio.click"
       />
       {/* End Hero Section */}
 
@@ -171,8 +171,8 @@ export default function DigitalAgencyHome() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="What we provide"
-          subtitle="Services"
+          title="Mobile app development services we excel in"
+          subtitle="Our Services"
           variant="cs-style1 text-center"
         />
         <Spacing lg="65" md="45" />
@@ -194,8 +194,8 @@ export default function DigitalAgencyHome() {
           <Div className="row">
             <Div className="col-lg-5 col-xl-4">
               <SectionHeading
-                title="Uk’s best digital agency ever"
-                subtitle="Why Choose Us"
+                title="At Joys Studio, we transform your mobile app ideas into innovative digital experiences that captivate users and drive business growth"
+                subtitle="Why Choose Joys Studio"
                 btnText="Learn More"
                 btnLink="/about"
               />
@@ -203,11 +203,13 @@ export default function DigitalAgencyHome() {
             </Div>
             <Div className="col-lg-7 offset-xl-1">
               <Div className="cs-half_screen">
-                <VideoModal
-                  videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-                  bgUrl="/images/video_bg.jpeg"
-                  variant="cs-style1 cs-size1"
-                />
+                <Div className="cs-half_screen cs-style1 cs-size1">
+                  <img
+                    src="/images/whychoose.png"
+                    alt="Joys Studio Mobile App Development"
+                    style={{width: '100%', height: '100%', objectFit: 'cover'}}
+                  />
+                </Div>
               </Div>
             </Div>
           </Div>
@@ -219,8 +221,8 @@ export default function DigitalAgencyHome() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Portfolio to explore"
-          subtitle="Latest Projects"
+          title="Mobile apps we've crafted with innovation"
+          subtitle="Our Portfolio"
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
@@ -271,7 +273,7 @@ export default function DigitalAgencyHome() {
         <Div className="row">
           <Div className="col-xl-4">
             <SectionHeading
-              title="We get multiple awards"
+              title="Joys Studio recognized for mobile innovation excellence"
               subtitle="Our Awards"
               variant="cs-style1"
             />
@@ -298,7 +300,7 @@ export default function DigitalAgencyHome() {
           <Div className="row">
             <Div className="col-lg-5 col-xl-4">
               <SectionHeading
-                title="Explore recent publication"
+                title="Mobile development insights and industry trends"
                 subtitle="Our Blog"
                 btnText="View More Blog"
                 btnLink="/blog"
@@ -317,8 +319,8 @@ export default function DigitalAgencyHome() {
       {/* Start LogoList Section */}
       <Div className="container">
         <SectionHeading
-          title="Our reputed partner"
-          subtitle="Top Clients"
+          title="Trusted by innovative companies worldwide"
+          subtitle="Our Valued Clients"
           variant="cs-style1 text-center"
         />
         <Spacing lg="70" md="45" />
@@ -330,7 +332,7 @@ export default function DigitalAgencyHome() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let's create <br />something <i>innovative</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

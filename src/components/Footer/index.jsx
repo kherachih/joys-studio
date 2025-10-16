@@ -19,19 +19,19 @@ const copyrightLinks = [
 
 const serviceMenu = [
   {
-    title: 'UI/UX design',
+    title: 'iOS App Development',
     href: '/service/service-details',
   },
   {
-    title: 'WP development',
+    title: 'Android App Development',
     href: '/service/service-details',
   },
   {
-    title: 'Digital marketing',
+    title: 'Cross-Platform Solutions',
     href: '/service/service-details',
   },
   {
-    title: 'React development',
+    title: 'Mobile UI/UX Design',
     href: '/service/service-details',
   },
 ];
@@ -46,8 +46,8 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <TextWidget
                   logoSrc="/images/footer_logo.svg"
-                  logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  logoAlt="Joys Studio"
+                  text="Joys Studio specializes in creating innovative mobile applications that transform ideas into powerful digital experiences, delivering cutting-edge solutions for today's mobile-first world."
                 />
                 <SocialWidget />
               </Div>
@@ -66,8 +66,8 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-                  placeholder="example@gmail.com"
+                  subtitle="Stay updated with the latest mobile app development trends and innovations from Joys Studio."
+                  placeholder="your@email.com"
                 />
               </Div>
             </Div>
@@ -77,7 +77,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2022 Laralink.</Div>
+            <Div className="cs-copyright">Copyright © 2025 Joys Studio.</Div>
           </Div>
           <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=" cs-style2" />

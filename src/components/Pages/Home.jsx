@@ -74,7 +74,7 @@ const portfolioData = [
 ];
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle('Joys Studio - Mobile App Development');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -84,8 +84,8 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        title="Mobile Innovation <br/>At Its Best"
+        subtitle="At Joys Studio, we craft cutting-edge mobile applications that transform ideas into powerful digital experiences, delivering innovative solutions for today's mobile-first world."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -99,8 +99,8 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="Joys Studio Achievements"
+          subtitle="We're proud of our impact in the mobile app development industry, helping businesses transform their digital presence with innovative solutions."
           data={funfaceData}
         />
       </div>
@@ -113,8 +113,8 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
+                title="Mobile app development services we excel in"
+                subtitle="Our Services"
                 btnText="See All Services"
                 btnLink="/service"
               />
@@ -125,39 +125,39 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="UI/UX design"
+                    title="Mobile UI/UX Design"
                     link="/service/service-details"
                     src="/images/service_1.jpeg"
-                    alt="Service"
+                    alt="Mobile UI/UX Design"
                   />
                   <Spacing lg="0" md="30" />
                 </Div>
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="React.js Development"
+                    title="React Native Development"
                     link="/service/service-details"
                     src="/images/service_2.jpeg"
-                    alt="Service"
+                    alt="React Native Development"
                   />
                   <Spacing lg="0" md="30" />
                 </Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="Digital Marketing"
+                    title="iOS Development"
                     link="/service/service-details"
                     src="/images/service_3.jpeg"
-                    alt="Service"
+                    alt="iOS Development"
                   />
                   <Spacing lg="0" md="30" />
                 </Div>
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="Technology"
+                    title="Android Development"
                     link="/service/service-details"
                     src="/images/service_4.jpeg"
-                    alt="Service"
+                    alt="Android Development"
                   />
                   <Spacing lg="0" md="30" />
                 </Div>
@@ -174,8 +174,8 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Mobile apps we've crafted"
+            subtitle="Our Portfolio"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
@@ -194,7 +194,7 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="We get multiple awards"
+                title="Joys Studio recognized for excellence"
                 subtitle="Our Awards"
                 variant="cs-style1"
               />
@@ -212,13 +212,14 @@ export default function Home() {
       <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
+          Our agile mobile development process adapts and responds to change. At Joys Studio,
+          we view technological evolution as an opportunity, not a threat, allowing us to deliver
+          cutting-edge mobile solutions that stay ahead of the curve.
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
           videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
+          bgUrl="/images/whychoose.png"
         />
       </Div>
       {/* End Video Block Section */}
@@ -227,7 +228,7 @@ export default function Home() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
+          title="Talented mobile app<br/>development team"
           subtitle="Our Team"
           variant="cs-style1"
         />
@@ -250,7 +251,7 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Explore recent publication"
+                title="Mobile development insights and trends"
                 subtitle="Our Blog"
                 btnText="View More Blog"
                 btnLink="/blog"
@@ -269,7 +270,7 @@ export default function Home() {
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="Joys Studio - Innovating Mobile Experiences" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
@@ -283,7 +284,7 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let's create <br />something <i>innovative</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
