@@ -9,25 +9,25 @@ import TeamSlider from '../Slider/TeamSlider';
 import Spacing from '../Spacing';
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
-    factNumber: '40K',
+    title: 'Happy Clients Worldwide',
+    factNumber: '500+',
   },
   {
-    title: 'Project Completed',
-    factNumber: '50K',
+    title: 'Apps & Websites Delivered',
+    factNumber: '1200+',
   },
   {
-    title: 'Team Members',
-    factNumber: '245',
+    title: 'Expert Developers',
+    factNumber: '25+',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Programming Languages',
+    factNumber: '15+',
   },
 ];
 
 export default function AboutPage() {
-  pageTitle('About');
+  pageTitle('About Joys Studio');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -36,9 +36,9 @@ export default function AboutPage() {
     <>
       {/* Start Page Heading Section */}
       <PageHeading
-        title="About Us"
+        title="About Joys Studio"
         bgSrc="images/about_hero_bg.jpeg"
-        pageLinkText="About Us"
+        pageLinkText="About"
       />
       {/* End Page Heading Section */}
 
@@ -48,16 +48,12 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              title="Your trusted partner for digital innovation"
+              subtitle="About Joys Studio"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                At Joys Studio, we specialize in transforming ideas into powerful digital solutions through expert application and web development. Our team of skilled developers works across multiple platforms and programming languages to create innovative mobile apps for iOS and Android, as well as robust web applications. We combine technical excellence with creative problem-solving to deliver solutions that drive business growth and enhance user experiences.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -96,8 +92,8 @@ export default function AboutPage() {
       {/* Start Fun Fact Section */}
       <Div className="container">
         <FunFact
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="Our Development Excellence"
+          subtitle="We pride ourselves on delivering exceptional digital solutions across multiple platforms. Our expertise spans from native mobile development to cross-platform solutions, ensuring your project reaches its full potential."
           data={funfaceData}
         />
       </Div>
@@ -121,23 +117,16 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
-              subtitle="Why Choose Us"
+              title="Expert developers with diverse technical skills"
+              subtitle="Why Choose Joys Studio"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                What sets Joys Studio apart is our comprehensive expertise across multiple development platforms and programming languages. Our team specializes in iOS development with Swift, Android development with Kotlin, cross-platform solutions with React Native, and robust web applications using modern JavaScript frameworks. This diverse skill set allows us to choose the perfect technology stack for your specific needs.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+                We follow industry best practices and agile methodologies to ensure efficient development cycles and high-quality deliverables. Our commitment to staying current with emerging technologies means your applications will be built using the most advanced and suitable tools available, ensuring scalability, performance, and maintainability.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -148,25 +137,25 @@ export default function AboutPage() {
       </Div>
       {/* End Why Choose Section */}
 
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* Start Team Section - Temporarily Hidden */}
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
+          title="Talented development <br/>professionals"
+          subtitle="Our Development Team"
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
-      </Div>
+      </Div> */}
       {/* End Team Section */}
 
       {/* Start CTA Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Let's build <br />something <i>amazing</i> together"
+          btnText="Schedule a Consultation"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />

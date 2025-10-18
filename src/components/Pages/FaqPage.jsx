@@ -9,7 +9,7 @@ import PageHeading from '../PageHeading';
 import Spacing from '../Spacing';
 
 export default function FaqPage() {
-  pageTitle('Frequently Asked Questions');
+  pageTitle('FAQ - Joys Studio');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,16 +25,16 @@ export default function FaqPage() {
         <Div className="row">
           <Div className="col-lg-4">
             <Div className="cs-faq_nav cs-radius_15">
-              <h2 className="cs-faq_nav_title cs-m0">FAQ Category</h2>
+              <h2 className="cs-faq_nav_title cs-m0">FAQ Categories</h2>
               <Div className="cs-height_30 cs-height_lg_30" />
               <ul className="cs-list cs-style1 cs-mp0">
                 <li>
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Service related"
+                    btnText="Development Services"
                     icon={
-                      <Icon icon="material-symbols:content-copy-outline-rounded" />
+                      <Icon icon="material-symbols:code" />
                     }
                   />
                 </li>
@@ -42,9 +42,9 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Pricing"
+                    btnText="Pricing & Payment"
                     icon={
-                      <Icon icon="material-symbols:content-copy-outline-rounded" />
+                      <Icon icon="material-symbols:payments" />
                     }
                   />
                 </li>
@@ -52,9 +52,9 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Project delivery"
+                    btnText="Process & Timeline"
                     icon={
-                      <Icon icon="material-symbols:content-copy-outline-rounded" />
+                      <Icon icon="material-symbols:schedule" />
                     }
                   />
                 </li>
@@ -62,9 +62,9 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Documentation"
+                    btnText="Support & Maintenance"
                     icon={
-                      <Icon icon="material-symbols:content-copy-outline-rounded" />
+                      <Icon icon="material-symbols:support-agent" />
                     }
                   />
                 </li>
@@ -81,8 +81,8 @@ export default function FaqPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Let's build <br />something <i>amazing</i> together"
+          btnText="Schedule a Consultation"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />

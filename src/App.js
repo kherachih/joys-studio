@@ -25,6 +25,9 @@ import ArchitectureAgencyHome from './components/Pages/ArchitectureAgencyHome';
 import CreativeSolutionHome from './components/Pages/CreativeSolutionHome';
 import PersonalPortfolioHome from './components/Pages/PersonalPortfolioHome';
 import VideoShowcaseHome from './components/Pages/VideoShowcaseHome';
+import TermsOfUsePage from './components/Pages/TermsOfUsePage';
+import PrivacyPolicyPage from './components/Pages/PrivacyPolicyPage';
+import EmailSubscribersPage from './components/Pages/EmailSubscribersPage';
 
 function App() {
   return (
@@ -69,6 +72,9 @@ function App() {
             element={<CaseStudyDetailsPage />}
           />
           <Route path="faq" element={<FaqPage />} />
+          <Route path="terms-of-use" element={<TermsOfUsePage />} />
+          <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="admin/subscribers" element={<EmailSubscribersPage />} />
         </Route>
         <Route
           path="/"

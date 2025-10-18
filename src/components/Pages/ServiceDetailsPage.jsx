@@ -26,9 +26,9 @@ export default function ServiceDetailsPage() {
       />
       <Spacing lg='145' md='80'/>
       <Div className="container">
-        <SectionHeading 
-          title='Design working process' 
-          subtitle='UI/UX Design' 
+        <SectionHeading
+          title='Development Process'
+          subtitle='Web & Mobile Solutions'
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45'/>
@@ -36,24 +36,24 @@ export default function ServiceDetailsPage() {
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_1.svg'
-              title='Sketching'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              title='Requirements Analysis'
+              subtitle='We analyze your business needs and technical requirements to create a comprehensive development strategy for your web and mobile applications.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_2.svg'
-              title='Wireframing'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              title='Architecture Design'
+              subtitle='We design scalable and robust application architectures using best practices for web, iOS, and Android platforms with optimal technology stacks.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_3.svg'
-              title='Prototyping'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              title='Development & Testing'
+              subtitle='We implement your solutions using multiple programming languages and frameworks, ensuring thorough testing and quality assurance across all platforms.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
@@ -69,31 +69,31 @@ export default function ServiceDetailsPage() {
             <Spacing lg='0' md='40'/>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
-            <h2 className="cs-font_50 cs-m0">Below our most design related services</h2>
+            <h2 className="cs-font_50 cs-m0">Our Development Services</h2>
             <Spacing lg='50' md='30'/>
             <Div className="row">
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Web page design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Web Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='eCommerce design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='eCommerce Solutions' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Landing page' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Landing Pages' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Email template' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Email Templates' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Application design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Application Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Illustration' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='UI/UX Design' variant='cs-type2'/>
                 <Spacing lg='0' md='10'/>
               </Div>
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Infographic design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='iOS Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Mobile apps design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Android Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Banner, brochure, card' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Cross-Platform Solutions' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Other design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='API Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
               </Div>
             </Div>
@@ -110,8 +110,8 @@ export default function ServiceDetailsPage() {
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <SectionHeading
-                title='Some pre questions and answers' 
-                subtitle='FAQ’s'
+                title='Frequently Asked Questions'
+                subtitle='FAQ'
               />
               <Spacing lg='90' md='45'/>
             </Div>
@@ -124,10 +124,10 @@ export default function ServiceDetailsPage() {
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
-          btnLink='/contact' 
-          bgSrc='/images/cta_bg.jpeg'
+          title="Let's discuss building <br />something <i>amazing</i> together"
+          btnText='Schedule a Consultation'
+          btnLink="/contact"
+          bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
     </>

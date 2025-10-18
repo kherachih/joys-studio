@@ -35,7 +35,7 @@ export default function Hero11({
           <h2 className="cs-hero_intro_title">{parse(introTitle)}</h2>
           <h1 className="cs-hero_title">{parse(title)}</h1>
           <div className="cs-hero_subtitle">{parse(subtitle)}</div>
-          <SocialWidget />
+          {/* <SocialWidget /> */}
           <div className="cs-hero_btn">
             <Button btnLink={btnLink} btnText={btnText} />
           </div>

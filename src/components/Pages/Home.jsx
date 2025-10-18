@@ -22,7 +22,7 @@ const heroSocialLinks = [
     links: '/',
   },
   {
-    name: 'Twitter',
+    name: 'X',
     links: '/',
   },
 ];

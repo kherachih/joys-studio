@@ -66,14 +66,6 @@ export default function Header({ variant }) {
                         <ul>
                           <li>
                             <Link
-                              to="service"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Services
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
                               to="/service/service-details"
                               onClick={() => setMobileToggle(false)}
                             >
@@ -94,14 +86,6 @@ export default function Header({ variant }) {
                         <ul>
                           <li>
                             <Link
-                              to="portfolio"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Portfolio
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
                               to="portfolio/portfolio-details"
                               onClick={() => setMobileToggle(false)}
                             >
@@ -117,14 +101,6 @@ export default function Header({ variant }) {
                       </NavLink>
                       <DropDown>
                         <ul>
-                          <li>
-                            <Link
-                              to="blog"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Blog
-                            </Link>
-                          </li>
                           <li>
                             <Link
                               to="blog/blog-details"
@@ -148,30 +124,6 @@ export default function Header({ variant }) {
                               onClick={() => setMobileToggle(false)}
                             >
                               Contact
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team/team-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/case-study/case-study-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Case Study Details
                             </Link>
                           </li>
                           <li>
@@ -252,7 +204,7 @@ export default function Header({ variant }) {
             />
           </Div>
           <Div className="cs-side_header_box">
-            <SocialWidget />
+            {/* <SocialWidget /> */}
           </Div>
         </Div>
       </Div>

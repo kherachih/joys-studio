@@ -8,34 +8,34 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '4',
+      'The mobile application developed for our e-commerce platform exceeded all our expectations. The team delivered a seamless iOS and Android experience that increased our customer engagement by 40%. Their expertise in cross-platform development is unmatched.',
+    avatarName: 'Sarah Mitchell',
+    avatarDesignation: 'CTO AT SHOPHUB',
+    ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_2.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
+      'We partnered with them to develop our fintech web application, and the results have been phenomenal. The secure, scalable solution they built handles thousands of transactions daily without any issues. Their technical knowledge across multiple programming languages is impressive.',
+    avatarName: 'Michael Chen',
+    avatarDesignation: 'FOUNDER AT PAYWAVE',
     ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_3.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
+      'Our fitness tracking app has become a market leader thanks to their exceptional development work. The iOS app is smooth, intuitive, and packed with features our users love. They truly understood our vision and delivered beyond our expectations.',
+    avatarName: 'Emma Rodriguez',
+    avatarDesignation: 'PRODUCT MANAGER AT FITLIFE',
     ratings: '4.5',
   },
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '3.5',
+      'The custom web application they built for our logistics company transformed our operations. Real-time tracking, inventory management, and automated reporting have saved us countless hours. Their ongoing support and maintenance have been exceptional.',
+    avatarName: 'David Thompson',
+    avatarDesignation: 'DIRECTOR AT LOGISTIX PRO',
+    ratings: '4.5',
   },
 ];
 

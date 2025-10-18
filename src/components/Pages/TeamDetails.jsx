@@ -39,7 +39,7 @@ export default function TeamDetails() {
               <Div className="cs-height_25 cs-height_lg_20" />
               <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
-              <SocialWidget/>
+              {/* <SocialWidget/> */}
             </Div>
           </Div>
         </Div>

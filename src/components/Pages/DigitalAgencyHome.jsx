@@ -20,53 +20,53 @@ const heroSocialLinks = [
     links: '/',
   },
   {
-    name: 'Twitter',
+    name: 'X',
     links: '/',
   },
 ];
 const funfaceData = [
   {
     title: 'Mobile Apps Created',
-    factNumber: '50+',
+    factNumber: '50',
   },
   {
-    title: 'Happy Clients Worldwide',
-    factNumber: '1000+',
+    title: 'Happy Clients',
+    factNumber: '1000',
   },
   {
     title: 'Projects Completed',
-    factNumber: '200+',
+    factNumber: '200',
   },
   {
     title: 'Expert Developers',
-    factNumber: '15+',
+    factNumber: '15',
   },
 ];
 const serviceData1 = [
   {
-    title: 'iOS App Development',
+    title: 'iOS',
     href: '/service/service-details',
   },
   {
-    title: 'Android App Development',
+    title: 'Android',
     href: '/service/service-details',
   },
   {
-    title: 'Cross-Platform Solutions',
+    title: 'Flutter',
     href: '/service/service-details',
   },
 ];
 const serviceData2 = [
   {
-    title: 'Mobile UI/UX Design',
+    title: 'Mobile UI/UX',
     href: '/service/service-details',
   },
   {
-    title: 'App Testing & QA',
+    title: 'Web Apps',
     href: '/service/service-details',
   },
   {
-    title: 'Mobile App Maintenance',
+    title: 'Maintenance',
     href: '/service/service-details',
   },
 ];
@@ -207,7 +207,7 @@ export default function DigitalAgencyHome() {
                   <img
                     src="/images/whychoose.png"
                     alt="Joys Studio Mobile App Development"
-                    style={{width: '100%', height: '100%', objectFit: 'cover'}}
+                    style={{width: '80%', height: '50%', objectFit: 'cover'}}
                   />
                 </Div>
               </Div>
@@ -316,8 +316,8 @@ export default function DigitalAgencyHome() {
       <Spacing lg="145" md="80" />
       {/* End Blog Section */}
 
-      {/* Start LogoList Section */}
-      <Div className="container">
+      {/* Start LogoList Section - Temporarily Hidden */}
+      {/* <Div className="container">
         <SectionHeading
           title="Trusted by innovative companies worldwide"
           subtitle="Our Valued Clients"
@@ -326,7 +326,7 @@ export default function DigitalAgencyHome() {
         <Spacing lg="70" md="45" />
         <LogoList />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}

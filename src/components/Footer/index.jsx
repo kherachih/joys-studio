@@ -9,11 +9,11 @@ import './footer.scss';
 const copyrightLinks = [
   {
     title: 'Terms of Use',
-    href: '/',
+    href: '/terms-of-use',
   },
   {
     title: 'Privacy Policy',
-    href: '/',
+    href: '/privacy-policy',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                   logoAlt="Joys Studio"
                   text="Joys Studio specializes in creating innovative mobile applications that transform ideas into powerful digital experiences, delivering cutting-edge solutions for today's mobile-first world."
                 />
-                <SocialWidget />
+                {/* <SocialWidget /> */}
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
